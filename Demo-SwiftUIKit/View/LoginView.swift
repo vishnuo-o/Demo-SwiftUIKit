@@ -27,7 +27,7 @@ struct LoginView: View {
                        text: $viewModel.password,
                        mandatory: true,
                        secureEntry: true,
-                       header: viewModel.getPasswordError())
+                       footer: viewModel.getPasswordError())
             // phone
             VTextField(uiModel: primaryTextfield, "Phone",
                        text: $viewModel.phone,
