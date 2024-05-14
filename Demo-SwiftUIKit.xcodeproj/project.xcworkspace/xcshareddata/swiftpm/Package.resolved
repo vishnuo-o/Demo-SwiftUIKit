@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuidevkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/i-steve/SwiftUIDevKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b26c0b553ed6f6cb2fc20f7fcd0ce75ea03afc24"
+      }
+    }
+  ],
+  "version" : 2
+}
