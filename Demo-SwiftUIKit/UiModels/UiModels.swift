@@ -61,7 +61,7 @@ let primaryTextfield: VTextFieldUIModel = VTextFieldUIModel(floatFont: .custom("
                                                             foregroundColor: .primary,
                                                             backgroundColor: .gray.opacity(0.25),
                                                             selectedBackgroundColor: .green.opacity(0.30),
-                                                            floatBackgroundColor: .white,
+                                                            floatBackgroundColor: .white.opacity(0.8),
                                                             selectedColor: .green,
                                                             unselectedColor: .gray,
                                                             cornerRadius: 8.0,
@@ -78,7 +78,7 @@ let primaryTextfield: VTextFieldUIModel = VTextFieldUIModel(floatFont: .custom("
 //                                                            footerSpacing: <#T##CGFloat#>,
 //                                                            floatLeadingSpacing: <#T##CGFloat#>,
 //                                                            placeholderLeadingSpacing: <#T##CGFloat#>,
-                                                            showClearButton: true)
+                                                            showClearButton: false)
 
 
 

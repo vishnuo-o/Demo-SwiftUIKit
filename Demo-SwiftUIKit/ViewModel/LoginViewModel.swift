@@ -12,6 +12,7 @@ class LoginViewModel: ObservableObject{
     
     @Published var email: String = ""
     @Published var password: String = ""
+    @Published var phone: String = ""
     
     @Published var showError: Bool = false
     @Published var showPopup: Bool = false

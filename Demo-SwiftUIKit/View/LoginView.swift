@@ -18,14 +18,22 @@ struct LoginView: View {
             // email
             VTextField(uiModel: primaryTextfield, "Email", 
                        text: $viewModel.email,
+                       mandatory: true,
                        icon: (Image(systemName: "envelope.fill"), .trailing, nil),
                        footer: viewModel.getEmailError())
             
             // password
             VTextField(uiModel: primaryTextfield, "Password", 
                        text: $viewModel.password,
+                       mandatory: true,
                        secureEntry: true,
-                       footer: viewModel.getPasswordError())
+                       header: viewModel.getPasswordError())
+            // phone
+            VTextField(uiModel: primaryTextfield, "Phone",
+                       text: $viewModel.phone,
+                       icon: (Image(systemName: "phone.fill"), .trailing, nil),
+                       format: "(XXX)XXX-XXXX")
+            
             // login
             VButton(uiModel: primaryButton, title: "Login"){
                 viewModel.login()
