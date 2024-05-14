@@ -1,5 +1,4 @@
-Demo Application for the SwiftUI Sdk.
+Demo Application for the SwiftUIDevKit Sdk.
+Clone the repo & find how to use it at ease.
 
-clone the repo & find how to use it at ease.
-
-Happy Coding!
+Happy Coding! :)
