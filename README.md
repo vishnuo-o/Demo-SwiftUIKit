@@ -4,6 +4,7 @@ Clone the repo & find how to use it at ease.
 - MVVM Pattern
 - Data Flow
 - Text Formatting
-- Validation Implementation
+- Input Validation
+- Popup View
 
 Happy Coding! :)
